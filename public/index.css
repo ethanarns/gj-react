@@ -1,0 +1,256 @@
+/* main.css */
+html {
+    width: 100%; }
+  
+  body {
+    width: 100%;
+    background-image: url(../images/bg_forest.jpg);
+    background-size: auto;
+    background-position: 0px -230px;
+    background-repeat: repeat; }
+  
+  .navbar {
+    background-color: white;
+    margin: 0; }
+  
+  @media (min-width: 768px) {
+    .navbar-nav {
+      display: table; }
+  
+    .navbar-nav > li {
+      display: table-cell;
+      text-align: center;
+      width: 1%;
+      float: none; }
+  
+    .navbar-nav > .nav-item:last-child {
+      width: 0.5%; }
+  
+    .navbar-nav > .nav-item:first-child {
+      width: 0.5%; } }
+  .nav-link {
+    color: black !important; }
+  
+  header {
+    color: white;
+    text-shadow: 1px 1px 1px black; }
+  
+  .cfit {
+    height: 100%; }
+  
+  .jumbotron {
+    background-color: transparent; }
+  
+  main {
+    background-color: white;
+    padding: 20px 10px;
+    width: 100%;
+    margin: 0 auto; }
+  
+  #whiteFixer {
+    background-color: #E8E8E8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1; }
+  
+  footer {
+    height: 100%; }
+  
+  footer .container {
+    height: 100%; }
+  
+  footer .container .row {
+    height: 100%; }
+  
+  #footerText {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0; }
+  
+  @media (min-width: 992px) {
+    .nav-item {
+      margin-left: 50%; }
+  
+    .nav-item:first-child {
+      margin-left: 0; } }
+
+/* index.css */
+.jumbotron {
+    height: 350px; }
+  
+  .cfit .row {
+    margin-top: 50px; }
+  
+  main {
+    padding-bottom: 40px;
+    background-color: #f8fafb; }
+  
+  #whiteFixer {
+    top: 600px; }
+  
+  #newsCol small {
+    padding-left: 5px; }
+  
+  /* If shorter than 600px */
+  @media only screen and (max-height: 600px) {
+    #whiteFixer {
+      height: 0%; } }
+  #newsCol .list-group::before {
+    content: "";
+    height: 80%;
+    width: 3px;
+    position: absolute;
+    top: 10%;
+    background: grey;
+    display: inline-block;
+    left: -5%; }
+  
+  #newsCol .list-group-item {
+    background-color: #dcf3e0; }
+  
+  #newsCol .list-group-item-secondary {
+    background-color: #83d68f; }
+  
+  #newsCol .list-group-item h6 {
+    color: black; }
+  
+  #aboutus .media {
+    margin-bottom: 20px; }
+  
+  #aboutus .media-body {
+    padding-right: 0;
+    text-align: left; }
+  
+  #aboutus .media-body h5 {
+    text-align: center;
+    width: 100%; }
+  
+  #aboutus .media-body h5 span {
+    background-color: #dcf3e0;
+    padding: 0 10%; }
+  
+  @media (min-width: 768px) {
+    #aboutus .media-body {
+      padding-right: 20px; } }
+  @media (max-width: 493px) {
+    #aboutus .media-body {
+      text-align: center; }
+  
+    #aboutus .media {
+      max-width: 100%;
+      flex-grow: 1; } }
+
+/* Inline */
+#lCol {
+    /*background: red;*/
+}
+#lCol h2 {
+    text-align: center;
+}
+#rCol {
+    /*background: blue;*/
+}
+/*#rCol */.list-group-item {
+    background-color: #dcf3e0;
+}
+/*#rCol */.list-group-item a {
+    display: block;
+    text-decoration: underline;
+    color: black;
+}
+/*#rCol */.list-group-item a:hover {
+    color: grey;
+}
+/*#rCol */.list-group-item-secondary {
+    background-color: #83d68f;
+}
+.officer-list .media img {
+    width: 10vh;
+    height: auto;
+    /* Until images get */
+    display: none;
+}
+#info-wrapper {
+    background-color: white;
+    padding: 20px 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+#officers {
+    padding: 0;
+    /* Disable center align once images get */
+    text-align: center;
+}
+#officers > .row {
+    /* Was making whole page scroll */
+    margin: 0;
+}
+@media (max-width: 493px) {
+    .spread {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    #officers {
+        
+    }
+}
+
+/* Contact */
+.card-body > p {
+  color:red;
+}
+.card {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  background-color: #f8fafb;
+}
+.card-body input {
+  width: 100%;
+}
+
+.card-body {
+  padding-top: 10px;
+}
+.card-body > p {
+  margin-bottom: 2px;
+}
+.btn {
+  width: 80%!important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #dcf3e0;
+}
+
+form > p {
+  margin-bottom: 2px;
+}
+textarea {
+  width: 100%; 
+}
+#subscribe-checkbox {
+  width: 10px;
+}
+#imageChange {
+  margin: 0;
+  margin-bottom: 5px;
+}
+#captcha {
+  cursor: pointer;
+}
+#captchaText {
+  margin: 0px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 800px) {
+  .card {
+      width: 90%;
+  }
+}

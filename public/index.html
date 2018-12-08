@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="%PUBLIC_URL%/images/favicon.png">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+    integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+
+    <title>California Grand Jurors' Association - Santa Cruz County Chapter</title>
+
+    <link type="text/css" rel="stylesheet" href="%PUBLIC_URL%/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="news-a">News</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="information-a">Information</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="officers-a">Officers</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="contact-a">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="jumbotron text-center mt-2">
+            <div class="container cfit">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>California Grand Jurors' Association
+                            <br>Santa Cruz County Chapter</h2>
+                        <p>To promote, preserve, and support the civil grand
+                            jury system through training, education, and outreach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <main>
+        <div id="sec-news"></div>
+            <div class="container mt-2">
+                <div class="row justify-content-center">
+                    <!-- Left: About us/History --->
+                    <div class="col-6 spread">
+                        <div class="media d-block" id="aboutus">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1"><span>About us</span></h5>
+                                We are a group of former civil grand jurors from 
+            Santa Cruz County interested in continuing our service to the community.
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mt-4 mb-1"><span>History</span></h5>
+                                <p>
+                                    The California Grand Jurors Association is an 
+            association of former and current Grand Jurors established as a 
+            non-profit public benefit corporation pursuant to IRS 501(c)(3) on 
+            February 23, 1998. The original corporation was formed on June 14, 1983 
+            and registered as a (501)(c)(4) corporation.
+                                </p>
+                                <p>
+                                    The Santa Cruz County Chapter of the California 
+            Grand Jurors Association is a group of past and present members of the 
+            Santa Cruz County Civil Grand Jury. It was incorporated in 2013.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: News --->
+                    <div id="newsRoot"></div>
+                </div>
+            </div>
+        <br>
+        <hr id="sec-information">
+        <br>
+        <div class="container">
+            <div class="row">
+                <!-- Left: Links --->
+                <div class="col">
+                    <div class="list-group">
+                        <li class="list-group-item list-group-item-secondary">
+                            <h4 class="m-0">Links</h4>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.co.santa-cruz.ca.us/default.aspx?tabid=895"  target="_blank">
+                                Santa Cruz County Civil Grand Jury
+                            </a>
+                            <small class="text-muted">Includes reports</small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="https://cgja.org/"  target="_blank">
+                                California Grand Jurors&#39; Association
+                            </a>
+                            <small class="text-muted"></small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.santacruzcourt.org/"  target="_blank">
+                                Superior Court of California, Santa Cruz County
+                            </a>
+                            <small class="text-muted"></small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.scottsvalley.org/"  target="_blank">
+                                City of Scotts Valley
+                            </a>
+                            <small class="text-muted"></small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://cityofwatsonville.org/"  target="_blank">
+                                City of Watsonville
+                            </a>
+                            <small class="text-muted"></small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://cityofcapitola.org/"  target="_blank">
+                                City of Capitola
+                            </a>
+                            <small class="text-muted"></small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.cityofsantacruz.com/"  target="_blank">
+                                City of Santa Cruz
+                            </a>
+                            <small class="text-muted"></small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.santacruzcourt.org/divisions/jury/grand%20jury"  target="_blank">
+                                Application to serve on the Grand Jury
+                            </a>
+                            <small class="text-muted"></small>
+                        </li>
+                        
+                    </div>
+                </div>
+                <!-- Right: Docs -->
+                <div class="col">
+                    <div class="list-group">
+                        <li class="list-group-item list-group-item-secondary">
+                            <h4 class="m-0">Informational Materials</h4>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.youtube.com/watch?v=MCcHkrtTJyM" target="_blank">
+                                Agents of Change
+                            </a>
+                            <small class="text-muted">YouTube video</small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=_8bufU4hpoM" target="_blank">
+                                California&#39;s Civil Grand Juries
+                            </a>
+                            <small class="text-muted">YouTube video</small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.co.santa-cruz.ca.us/Portals/0/County/GrandJury/GJ2014_final/GrandJuryanditsFunction.pdf" target="_blank">
+                                The Grand Jury and its Function
+                            </a>
+                            <small class="text-muted">PDF Document</small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://www.youtube.com/watch?v=ZKF0MPpK8Ro" target="_blank">
+                                The Powers of California&#39;s Civil Grand Juries
+                            </a>
+                            <small class="text-muted">YouTube video</small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="http://nebula.wsimg.com/2c489d1b3058b3e409e7105d031989d6?AccessKeyId=4F1AA8ECBCBA48CA0C76&amp;disposition=0&amp;alloworigin=1" target="_blank">
+                                Santa Cruz County Civil Grand Jury Overview
+                            </a>
+                            <small class="text-muted">PowerPoint presentation</small>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a href="files/revisedscccgjamembershipbylaws6-27-18.doc" target="_blank">
+                                Chapter Bylaws (Rev. 6-26-18)
+                            </a>
+                            <small class="text-muted">Word Document</small>
+                        </li>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr id="sec-officers">
+        <br>
+        <div class="container text-center">
+            <h3 class="mb-4">Officers</h3>
+            <div class="row">
+                
+                <div class="col-md-6">
+                        <ul class="list-unstyled officer-list">
+                        <li class="media">
+                            <img src="">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Nell Griscom</h5>
+                                President
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-6">
+                        <ul class="list-unstyled officer-list">
+                        <li class="media">
+                            <img src="">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Sara Cordell</h5>
+                                Vice President
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-6">
+                        <ul class="list-unstyled officer-list">
+                        <li class="media">
+                            <img src="">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Kris Desmond</h5>
+                                Recording Secretary
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-6">
+                        <ul class="list-unstyled officer-list">
+                        <li class="media">
+                            <img src="">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Jim Kerr</h5>
+                                Secretary/ Treasurer
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <br>
+        <hr id="sec-contact">
+        <br>
+        <div class="container mt-2">
+            <h3 class="text-center mb-3">Contact Us</h3>
+            <div class="card">
+                <div class="card-body">
+                    <p id="messageResult">&nbsp; &nbsp;</p>
+                    <form method="post" action="/emailsend">
+                        <div class="form-group">
+                            <label class="control-label text-left d-block" for="email">Email</label>
+                            <input class="form-control" required="" id="email" name="email" type="text">
+                            <span class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label text-left d-block" for="name">Name</label>
+                            <input class="form-control" required="" id="name" name="name" type="text">
+                            <span class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label text-left d-block" for="message">Message</label>
+                            <textarea class="form-control" rows="7" required="" id="message" name="message"></textarea>
+                            <span class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">
+                                Please add me to your email list</label>
+                            <input style="width:15px; top: 0.15em; position: relative;"
+                                id="shouldSubscribe" name="shouldSubscribe" value="true" type="checkbox">
+                        </div>
+                        <div class="form-group">
+                            <input value="Send" class="btn btn-default" type="submit">
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="whiteFixer">
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p id="footerText">Copyright © Ethan Arns. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        $("#news-a").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({
+                scrollTop: $("#sec-news").offset().top
+            }, 1000, function() {
+                //console.log("news scroll");
+            });
+        });
+        $("#information-a").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({
+                scrollTop: $("#sec-information").offset().top
+            }, 1000, function() {
+                //console.log("information scroll");
+            });
+        });
+        $("#officers-a").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({
+                scrollTop: $("#sec-officers").offset().top
+            }, 1000, function() {
+                //console.log("officers scroll");
+            });
+        });
+        $("#contact-a").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({
+                scrollTop: $("#sec-contact").offset().top
+            }, 1000, function() {
+                //console.log("contact scroll");
+            });
+        });
+        $(document).ready(function() {
+            if (window.location.href.indexOf("success") != -1) {
+                document.getElementById("sec-contact").scrollIntoView();
+                $("#messageResult").text("Email sent successfully.");
+            }
+        });
+    </script>
+</body>
+</html>
